@@ -1,0 +1,868 @@
+1/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+  background-image: url("../img/bg5.jpg");
+  left: 0px;
+  top: 0px;
+  position:relative;
+  z-index:0;
+  /*-webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
+  /*background: #fc4a1a; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to top, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to top, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.head-image
+{
+  background-image: url("../img/bg4.jpeg");
+  background-repeat: no-repeat;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  /*-webkit-filter: brightness(0.8);
+  filter: brightness(0.8);*/
+}
+.back-image
+{
+
+}
+
+@media (min-width: 320px) {
+  body {
+    padding-top: 0%;
+    background-image: url("../img/bg5.jpg");
+    left: 0px;
+    top: 0px;
+    position:relative;
+  }
+}
+.updation p
+{
+	text-align: center;
+	color:#fff;
+}
+.bg-dark
+{
+  background-color: transparent!important;
+  /*opacity: 0.8;*/
+  margin-top:-3%;
+}
+.toggler-icon
+{
+  color: #491217;
+}
+.nav-link
+{
+
+
+}
+.logo
+{
+  background-color: transparent!important;
+  margin-left: -35px;
+}
+.menu-right
+{
+  margin-top: 4.5%;
+  height: 7%;
+  width:98%;
+  margin-left: -0.5%;
+  background-color: white;border: 1px solid #491217;
+  border-radius: 7px 7px 7px 7px;
+  /*background: rgba(242,246,248,1);
+  background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 50%, rgba(216,225,231,1) 72%, rgba(242,246,248,1) 90%, rgba(224,239,249,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(50%, rgba(181,198,208,1)), color-stop(72%, rgba(216,225,231,1)), color-stop(90%, rgba(242,246,248,1)), color-stop(100%, rgba(224,239,249,1)));
+  background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 50%, rgba(216,225,231,1) 72%, rgba(242,246,248,1) 90%, rgba(224,239,249,1) 100%);
+  background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 50%, rgba(216,225,231,1) 72%, rgba(242,246,248,1) 90%, rgba(224,239,249,1) 100%);
+  background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 50%, rgba(216,225,231,1) 72%, rgba(242,246,248,1) 90%, rgba(224,239,249,1) 100%);
+  background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 50%, rgba(216,225,231,1) 72%, rgba(242,246,248,1) 90%, rgba(224,239,249,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+53,cccccc+94,cccccc+94 */
+  /*background: #eeeeee; /* Old browsers */
+  /*background: -moz-linear-gradient(top, rgba(238, 238, 238, 0.03) 53%, #cccccc 94%, #cccccc 94%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(top, #eeeeee 53%,#cccccc 94%,#cccccc 94%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(to bottom, #eeeeee 53%,#cccccc 94%,#cccccc 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+  /*border-radius: 5px 5px 5px 5px;*/
+  background: #fc4a1a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+/*.all-contents
+{
+  background: #fc4a1a; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to top, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to top, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*}*/
+.upper-main-menu
+{
+  border-radius: 2%;
+}
+.navbar-dark
+{
+  width: 99%;
+  margin-left: 0px;
+}
+.navbar-dark .navbar-brand img
+{
+  padding-top: 0px;
+  width: 200px;
+  height: 140px;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color: #fff;
+  font-size: 1.2em;
+  font-style: italic;
+
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+  color: #fff;
+  background-color: #491217;
+  border-bottom-color: #fd7e14;
+  font-weight: bold;
+  text-decoration: none;
+}
+.my-4
+{
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: bold;
+  padding-left:  2%;
+}
+.product-divide
+{
+  width: 98%;
+  height:2.5%;
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 30px 0px 30px 0px;
+  border: 1px solid #491217;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 0%;
+  margin-left: 1.5%;
+}
+
+.product-divide h4
+{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: #fd7e14;
+}
+
+.container
+{
+
+}
+.product-picture
+{
+  padding-top:10%;
+  padding-left: 10%;
+}
+.intro-pic-2
+{
+  padding-left: 1%;
+    padding-right: 0%;
+}
+.intro-pic-2 img
+{
+	margin:auto;
+}
+.last-intro-pic
+{
+	padding-left: 0%;
+	margin-left:0%;
+	height : 65%;
+}
+#map {
+    border-radius: 50px 0px 50px 0px;
+    border: 2px solid #fd7e14;
+    height: 400px;
+    width: 98%;
+}
+
+.map-title
+{
+    margin-top: 0%;
+}
+
+.row
+{
+  width: 100%;
+}
+
+.product-divide h2
+{
+  font-family: "Times New Roman";
+  font-style: italic;
+  color: #fd7e14;
+  font-weight: bold;
+  margin-bottom: 7%;
+  margin-top: 7%;
+  padding-top: 2%;
+  padding-left: 5%;
+}
+.product-divide .small
+{
+  font-size: 30px;
+}
+
+.btn-outline-warning
+{
+    margin-right: 10px;
+}
+
+.carousel-inner
+{
+  border-radius: 30px 0px 30px 0px;
+  margin-top: -5.5%;
+  /*height: 450px;*/
+  border: 2px solid #fd7e14;
+}
+.product-divide h4
+{
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+.product-divide p
+{
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 15px;
+  color: #491217;
+}
+
+
+.card-footer{
+    background-color: #212529;
+}
+
+.text-muted
+{
+    color: #fff!important;
+}
+
+.py-5
+{
+  margin-top: 5%;
+}
+.text-white
+{
+  color: #fff!important;
+}
+/*********************************About Us**********************/
+
+.intro-text
+{
+  font-style: italic;
+  font-family: "Times New Roman";
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 15px;
+  text-align: justify;
+  color: #491217;
+}
+.intro-text h3
+{
+  font-style: italic;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  color: #fd7e14;
+}
+.agent-policy-text
+{
+  padding-top: 15%;
+  font-style: italic;
+  font-family: "Times New Roman";
+  padding-left: 4%;
+  font-size: 15px;
+  text-align: justify;
+  color: #491217;
+}
+.agent-policy-text h4
+{
+  font-style: italic;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  color: #fd7e14;
+}
+.about-image
+{
+  margin:auto;
+}
+.agent-image
+{
+  margin:auto;
+}
+.raper
+{
+  margin-top: -2%;
+  color: #491217;
+  background-color: #fff;
+  border-radius: 30px 0px 30px 0px;;
+  border: 2px solid #491217;
+  padding-top: 5%;
+  width: 95%;
+  margin-left: 2%;
+  padding-bottom: 5%;
+}
+.raper .d-line
+{
+  width: 75%;
+  color: #fd7e14;
+  margin-top: 5%;
+}
+
+.about h1
+{
+  font-style: italic;
+  font-family: "Times New Roman";
+  text-align: center;
+  font-weight: bold;
+}
+
+.about p
+{
+
+}
+
+.about .detail
+{
+  text-align: justify;
+}
+/************************ Products **********************/
+.card-img-top
+{
+  height:;
+  border-radius: 18px 0px 0px 0px;
+}
+.h-100
+{
+  border-color: #491217;
+  border-radius: 20px 0px 20px 0px;
+  width: 190px;
+  margin:auto;
+}
+.h-100 .card-footer
+{
+  border-radius: 0px 0px 15px 0px;
+  text-align: center;
+}
+.list-group
+{
+  padding-left: 2%;
+}
+.list-group a
+{
+  font-family: Constantia;
+  font-size: 17px;
+  color: #fd7e14;
+  text-align: left;
+  border: 1px solid #491217 ;
+  border-radius: 10px 0px 10px 0px;
+}
+.list-group .active
+{
+  background-color:#491217 ;
+  color:#fff ;
+  border: none;
+}
+.list-group a:hover
+{
+  background-color:#491217 ;
+  color:#fff ;
+  border: 1px solid #fff;
+}
+.card-footer
+{
+  background-color:#491217 ;
+}
+.animal-pic
+{
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 30px 0px;
+}
+.animal-pic h1
+{
+  text-align: center;
+  font-family: "Times New Roman";
+  font-style: italic;
+  color: #fd7e14;
+}
+.animal-pic h3
+{
+  text-align: center;
+  font-family: "Times New Roman";
+  font-style: italic;
+  color: #fd7e14;
+}
+.animal-pic img
+{
+  border-radius:20px 0px;
+  height: 200px;
+  padding-left: 2%;
+}
+.product-note
+{
+  padding-top: 2%;
+  padding-bottom: 0.5%;
+  margin-top: 2%;
+  color: #fff;
+  font-family: "Times New Roman";
+  font-style: italic;
+  border-radius: 10px 0px;
+}
+.product-note p
+{
+  padding-left: 3%;
+  padding-right: 1%;
+}
+.note-font
+{
+  font-size: 20px;
+}
+
+/************************Plugin Salt Lamps****************/
+.benefit-guideline
+{
+  background-color: white;
+  padding-bottom: 5%;
+  border-radius: 50px 0px;
+}
+.benefit-text
+{
+  padding-top: 5%;
+  text-align: center;
+}
+.benefit-guideline h3
+{
+  padding-left: 0%;
+  color: #fd7e14;
+}
+.benefit-pic
+{
+  padding-left: 30%;
+}
+.user-guide
+{
+  padding-left: 10%;
+}
+.dimesion-assistance
+{
+  padding-left: 3%;
+}
+/************************ Salt Tiles *********************/
+.Salt-Tiles
+{
+  background-color: white;
+  padding-bottom: 5%;
+  border-radius: 50px 0px;
+      border: 1px solid #491217;
+}
+.Salt-Tiles h1
+{
+  color: #fd7e14;
+  font-family: "Times New Roman";
+  font-style: italic;
+  text-align: center;
+}
+.Salt-Tiles h3
+{
+  color: #fd7e14;
+  font-family: "Times New Roman";
+  font-style: italic;
+  text-align: center;
+}
+
+.big-picture
+{
+  padding-left: 10%;
+}
+.small-one
+{
+  padding-left: 11.5%;
+  border-radius: 20px 0px;
+}
+.tile-detail-text
+{
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  color: #491217;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+
+/************************ Spa Salt************************/
+.spa-all-contents
+{
+  background-color: white;
+  border-radius: 50px 0px;
+  padding-bottom: 5%;
+      border: 1px solid #491217;
+}
+.spa-all-contents h1
+{
+  text-align: center;
+  color: #fd7e14;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+.spa-big-pic
+{
+  margin-top: 5%;
+  padding-left: 12%;
+  border-radius: 50px 0px 50px 0px;
+}
+.spa-big-pic img
+{
+  border-radius: 30px;
+}
+.spa-small-one
+{
+  padding-top: 1%;
+  padding-left: 17%;
+  border-radius: 20px 0px 20px 0px;
+}
+.spa-small-one img
+{
+  border-radius: 20px 0px 20px 0px;
+  margin-left: 1%;
+}
+
+.spa-small-two
+{
+  margin-top: 1%;
+}
+.spa-small-two img
+{
+  border-radius: 20px 0px;
+  margin-left: 3%;
+}
+.spa-text
+{
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: justify;
+  color: #491217;
+  font-family: "Times New Roman";
+  font-style: italic;
+
+}
+.spa-text h3
+{
+  color: #fd7e14;
+  text-align: center;
+}
+/************************Raw Salt Stones******************/
+.raw-salt
+{
+  margin-top: 2%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  background-color: white;
+  border: 1px solid #491217;
+  border-radius: 50px 0px;
+}
+.raw-salt h3
+{
+  text-align: center;
+  font-family: "Times New Roman";
+  font-style: italic;
+  color: #fd7e14;
+}
+.raw-salt .big
+{
+  padding-left: 8%;
+  border-radius: 30px 0px;
+}
+.raw-salt-pic
+{
+  border-radius: 30px;
+}
+.one
+{
+  padding-top: 1%;
+}
+.one img
+{
+  border-radius: 20px 0px;
+}
+.two
+{
+  padding-top: 1%;
+}
+.two img
+{
+  border-radius: 20px 0px;
+}
+.raw-salt-text
+{
+  color: #491217;
+  font-family: "Times New Roman";
+  font-style: italic;
+  padding-top: 5%;
+}
+.raw-salt-text h3
+{
+  color: #fd7e14;
+}
+/************************ Factory ************************/
+.factory-heading
+{
+  background-color: white;
+  height: 3%;
+  border-radius: 10px 10px 10px 10px;
+  width: 98.5%;
+  padding-top: 0.5%;
+}
+.factory-heading h2
+{
+  color: #fd7e14;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+.manufacturing-contents
+{
+  margin-top: -3%;
+  background-color: white;
+  border-radius: 50px 0px 50px 0px;
+  border: 2px solid #491217;
+  padding-left: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  width: 98.5%;
+}
+.manufacturing-contents h2
+{
+  color: #fd7e14;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+.manufacturing-text
+{
+  text-align: justify;
+  color: #491217;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+  
+.manufacturing-contents .img-fluid
+ {
+ 	border: 2px solid #fd7e14;
+  border-radius: 5%;
+ }
+.packing-contents
+{
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 50px 0px 50px 0px;
+  border: 2px solid #491217;
+  padding-left: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  width: 98.5%;
+}
+.packing-text{
+  text-align: justify;
+  color: #491217;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+.packing-contents h2
+{
+  color: #fd7e14;
+}
+.packing-contents .img-fluid
+ {
+ 	border: 2px solid #fd7e14;
+  border-radius: 5%;
+ }
+.loadings-contents
+{
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 50px 0px 50px 0px;
+  border: 2px solid #491217;
+  padding-left: 2.5%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  width: 98.5%;
+  color: #491217;
+}
+.packing-text
+{
+  text-align: justify;
+  color: #491217;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+.loadings-contents h2
+{
+  color: #fd7e14;
+}
+.loadings-contents .img-fluid
+ {
+ 	border: 2px solid #fd7e14;
+  border-radius: 5%;
+ }
+/*********************** Contact Us *********************/
+.company-info{
+  margin-top: -1%;
+}
+.map-title
+{
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: bold;
+}
+.company-details
+{
+  font-family: "Times New Roman";
+  padding-top: 2%;
+  padding-left: 5%;
+  font-style: italic;
+  background-color:white;
+  color: #491217;
+  margin-top: 10%;
+  border: 1px solid #491217;
+  border-radius: 30px 0px 30px 0px;
+}
+.company-details h2{
+  font-weight: bold;
+  color : #fd7e14;
+}
+.company-details p{
+  font-size: 20px;
+}
+.company-details a{
+  text-decoration: underline;
+}
+.contact-form
+{
+  background-color: #fff;
+  align-content: center;
+  padding-bottom: 3%;
+  margin-top: 10%;
+  border-radius: 30px 0px 30px 0px;
+  border: 1px solid #491217;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right:5%;
+}
+.contact-form h4
+{
+  padding-bottom: 3%;
+  padding-left: 0%;
+  font-family: "Times New Roman";
+  padding-top: 5.5%;
+  font-style: italic;
+  color: #fd7e14;
+}
+.contact-form .form-control
+{
+  background-color: #fff;
+  color:#491217 ;
+}
+.btn
+{
+  color: #fd7e14;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+
+/*******Footer Style*********/
+footer{
+  background-color:#222222;
+  padding: 60px 0px;
+}
+
+footer ul{
+  list-style:none;
+  margin:0 auto;
+  display:inline-block;
+  padding-top:10px;
+  padding-bottom: 0px;
+}
+
+footer ul li{
+  float:left;
+}
+
+footer ul li a{
+  color:#491217;
+  padding:20px;
+}
+
+footer ul li a:hover{
+  background-color: #fd7e14;
+  color:#fff;
+  text-decoration:none;
+}
+
+.footer-top{
+  padding-bottom:50px;
+}
+
+.footer-top .fa{
+  font-size:18px;
+  color: #fed001;
+  padding-right:10px;
+}
+
+.footer-top a{
+  color:#fed001;
+  text-decoration:none;
+}
+
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+  background-color: #fed001;
+  color:#fff;
+}
+
+.copyright{
+  border-radius: 7px 7px 7px 7px;
+  background: #fc4a1a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.copyright p{
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size:12px;
+  padding:10px 0 10px 0;
+}
+.copyright p:hover{
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size:12px;
+  background-color: #491217;
+  font-weight: bold;
+}
+
+/****************************** Modal ***************************/
+.modal-dialog
+{
+  height: auto;
+}
+/*****************************image Slider***********************/
